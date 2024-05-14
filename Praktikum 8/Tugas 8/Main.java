@@ -1,0 +1,20 @@
+/*
+ * Nama: Laurentius Lucky Andriawan Bagaskara
+ * Lab/NIM: B1/ 24060122130100
+ */
+
+ public class Main {
+    public static void main(String[] args) {
+        Ulat K = new Ulat();
+        Data<Kupu> anu = new Data<>();
+        
+        anu.setIsi(K);
+        anu.getIsi().gerak();
+        
+        anu.setIsi(new Kepompong());
+        anu.getIsi().gerak();
+        
+        anu.setIsi(new KupuDewasa());
+        anu.getIsi().gerak();
+    }
+}
